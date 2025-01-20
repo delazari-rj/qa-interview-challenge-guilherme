@@ -1,0 +1,27 @@
+{
+  "name": "qa-interview-challenge-guilherme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delazari-rj/qa-interview-challenge-guilherme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delazari-rj/qa-interview-challenge-guilherme/issues"
+  },
+  "homepage": "https://github.com/delazari-rj/qa-interview-challenge-guilherme#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0"
+  },
+  "dependencies": {
+    "qa-interview-challenge-guilherme": "file:"
+  }
+}
