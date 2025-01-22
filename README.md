@@ -4,3 +4,4 @@
 4. Executar o comando npm install para baixar as dependências
 5. Para rodar os testes via browser, utilizar o comando npm run cypress:open
 6. Para rodar os testes pelo console, utilizar o comando npm run cypress:run
+7. Verificar execução em CI/CD https://gitlab.com/delazari.rj/qa-interview-challenge-guilherme/-/pipelines/1632688263
