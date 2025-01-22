@@ -17,10 +17,12 @@ describe('Knowledge of download and read a pdf file for the technical challenge'
         //Verify that the file has been downloaded with the correct name
         cy.readFile('./downloads/testing.pdf')
             .should('exist')
-        
-        //Check if the name "Roshan B Varghese" exists as content in the PDF.
 
-        //Check if in the Skill Set section, you have experience in "Java Script".
+        //Check if the text "Explanation of the Keys on a Windows QWERTY Keyboard" 
+        //exists as content in the PDF.
+        cy.task('readPdf', './downloads/testing.pdf').then(function (data) {
+            expect(data.text).to.contain('Explanation of the Keys on a Windows QWERTY Keyboard')
+        })
     })
 
 })

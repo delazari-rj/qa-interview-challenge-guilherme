@@ -20,7 +20,8 @@
   "homepage": "https://github.com/delazari-rj/qa-interview-challenge-guilherme#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.0.0"
+    "cypress": "^14.0.0",
+    "pdf-parse": "1.1.1"
   },
   "dependencies": {
     "qa-interview-challenge-guilherme": "file:"
